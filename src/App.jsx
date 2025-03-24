@@ -29,7 +29,6 @@ const handleSubmit=(e)=>{
       <form onSubmit={(e) => handleSubmit(e)}>
         <input
           type="text"
-          required
           value={input}
           onChange={(e) => setInput(e.target.value)}
         />
